@@ -1,0 +1,97 @@
+@charset "utf-8";
+
+body, h1, h2, p, ul, li {
+	margin: 0 auto;
+	padding: 0;
+}
+
+body {
+    font-family: "Inter", “Unbounded”, sans-serif;
+}
+
+/* clearfix */
+.clearfix:after {
+	content:" ";
+	display:block;
+	clear:both;
+}
+
+.bgBanner {
+    background-image: url(../images/banner_01.jpg);
+    width: 1440px;
+    height: 912px;
+    position: relative;
+}
+
+.header {
+    width: 1250px;
+    height: 134px;
+}
+
+.logo {
+    float: left;
+    width: 429px;
+    height: 131px;
+    margin-top: 48px;
+    margin-left: 96px;
+    border: 2px solid #fff;
+}
+
+.logoLeft {
+    width: 34px;
+    height: 34px;
+    margin-top: 50px;
+    margin-bottom: 49px;
+    margin-left: 31px;
+}
+
+.logoTeks {
+    width: 120px;
+    height: 20px;
+    margin-left: 39px;
+    margin-top: -32px;
+    font-family: Unbounded;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 19.84px;
+    text-align: left;
+    color: #fff;
+}
+
+.logoRight {
+    width: 135px;
+    height: 24px;
+    margin-top: -82px;
+    margin-left: 240px;
+    font-family: Unbounded;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 12.4px;
+    text-align: left;
+    color: #fff;
+}
+
+.menu {
+    float: right;
+    width: 717px;
+    height: 131px;
+    margin-top: -135px;
+    margin-left: 429px;
+    border: 2px solid #fff;
+}
+
+.menu1 {
+    width: 155px;
+    height: 40px;
+    color: #fff;
+    padding-top: 25px;
+    margin-left: -5px;
+    font-family: Inter;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 14.52px;
+    text-align: center;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}
+
